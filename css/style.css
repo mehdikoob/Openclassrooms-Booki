@@ -18,6 +18,30 @@ body {
     justify-content: center;
 }
 
+nav li {
+    display: inline-block;
+    width: 162px;
+    height: 2px;
+    }
+    
+    nav ul {margin: 0;}
+    
+    .header {
+    display: flex; 
+    justify-content: space-between
+    }
+    
+    nav li:hover:before {
+    content:"";
+    position: fixed;
+    height: 2px;
+    width: 162px;
+    top: 0px;
+    background-color: #0065FC;
+    }
+
+
+
 .main-container {
     width: 100%;
     max-width: 1440px;
